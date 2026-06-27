@@ -1,0 +1,26 @@
+.dpl-wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+
+.dpl-topbar { background: #1e3a8a; color: #fff; font-size: 12px; }
+.dpl-topbar-row { display: flex; align-items: center; justify-content: space-between; height: 34px; }
+.dpl-topbar strong { color: #fcd34d; font-weight: 600; }
+.dpl-topbar-sub { color: #c7d2fe; }
+
+.dpl-header { background: #fff; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 50; }
+.dpl-header-row { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.dpl-logo img { height: 36px; width: auto; display: block; }
+
+.dpl-nav { display: flex; align-items: center; gap: 22px; }
+.dpl-nav a { color: #334155; text-decoration: none; font-size: 14px; font-weight: 500; }
+.dpl-nav a:hover { color: #2563eb; }
+.dpl-nav .dpl-nav-active { color: #2563eb; font-weight: 600; }
+.dpl-nav .dpl-cta { background: #2563eb; color: #fff; padding: 8px 16px; border-radius: 6px; }
+.dpl-nav .dpl-cta:hover { background: #1d4ed8; color: #fff; }
+
+@media (max-width: 640px) {
+  .dpl-topbar-sub { display: none; }
+  .dpl-topbar-row { justify-content: center; }
+  .dpl-nav { gap: 14px; }
+  .dpl-nav a:not(.dpl-cta):not(.dpl-nav-active) { display: none; }
+}

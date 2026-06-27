@@ -1,0 +1,126 @@
+/* ===========================
+   BANNER – DESKTOP DEFAULT
+   =========================== */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-dark);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.banner-image {
+    width: 260px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 6px;
+}
+
+.banner-content {
+    flex: 1;
+    text-align: left;
+    min-width: 250px;
+}
+
+.banner-title {
+    color: var(--bg-warning);
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.banner-subtitle {
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 1.25rem;
+}
+
+.banner-text {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+.banner-button {
+    height: 45px;
+    border: 2px solid #ffffff;
+    min-width: 200px;
+    background: var(--primary-dark);
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 15px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: #ffffff;
+    color: #005f87;
+}
+
+/* ===========================
+   TABLET BREAKPOINT
+   =========================== */
+@media (max-width: 900px) {
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 15px;
+    }
+
+    .banner-image {
+        width: 70%;
+        max-width: 350px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-subtitle {
+        font-size: 1.1rem;
+    }
+}
+
+/* ===========================
+   MOBILE BREAKPOINT
+   =========================== */
+@media (max-width: 550px) {
+    .banner {
+        padding: 20px 10px;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 1.3rem;
+    }
+
+    .banner-subtitle {
+        font-size: 1rem;
+    }
+
+    .banner-text {
+        font-size: 0.95rem;
+    }
+
+    .banner-button {
+        width: 100%;
+        min-width: unset;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,139 @@
+/* Import typography stack: Manrope (headings), Montserrat (numbers), Inter (body) */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Montserrat:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Import Inter Regular for body text */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+
+:root {
+
+  /* Theme based on #0b1c3a */
+  --page-bg: #e4e9f1;
+  --surface: #ffffff;
+  --surface-soft: #f0f4fc;
+  --primary: #0b1c3a;
+  --primary-dark: #172142;
+  --primary-hover: #3466e8;
+  /* Brighter, more vivid blue for highlight on hover */
+  --primary-active: #00d4ff;
+  /* Bright cyan highlight for active state */
+  --primary-hover-shadow: 0 0 8px 2px #3466e860;
+  /* Subtle glow for hover */
+  --primary-active-shadow: 0 0 12px 3px #00d4ff99;
+  /* More pronounced glow for active */
+
+  --primary-nav: #00bcd4;
+  /* --primary-nav: #ffaa0b; */
+  /* --primary-dark: #071229; */
+  --primary-light: #344563;
+  --bg-warning: #00bcd4;
+
+
+  --text-dark: #000028;
+  --text-muted: #4b5679;
+  --text-on-primary: #fff;
+  --text-light: #fff;
+
+  --border-soft: #34456333;
+  --shadow-soft: 0 8px 24px rgba(11, 28, 58, 0.10);
+
+  /* --main-gradient: linear-gradient(90deg, #0b1c3a 0%, #18b0e8 100%); */
+  /* --main-gradient: linear-gradient(135deg, #172142 0%, #243a7a 45%, #5a2b9c 100%); */
+  --main-gradient-1: linear-gradient(135deg, #172142 0%, #243a7a 45%, #5a2b9c 100%);
+  --main-gradient-2: linear-gradient(120deg, #172142 0%, #3761b2 60%, #5a2b9c 100%);
+  --main-gradient: linear-gradient(110deg, #172142 15%, #2a3259 50%, #3d6dc2 100%);
+  --main-gradient: radial-gradient(circle at 60% 50%, #2f5f85 0%, #1f4e6f 35%, #143a56 65%, #0b2236 100%);
+  /* --main-gradient: radial-gradient(1200px 420px at 20% 20%, rgba(47, 91, 255, 0.35), transparent 55%), radial-gradient(900px 380px at 80% 10%, rgba(124, 58, 237, 0.32), transparent 55%), linear-gradient(180deg, #07163a 0%, #0b1f4b 100%);
+        padding: 1rem !important; */
+  --main-gradient-opposite: linear-gradient(110deg, #ffaa0b 15%, #d47f00 50%, #805200 100%);
+
+  --secondary-gradient: linear-gradient(90deg, #e0bb38 0%, #0b1c3a 100%);
+  --purple-gradient: linear-gradient(90deg, var(--primary-dark) 10%, #313131 150%);
+  --card-grad: linear-gradient(90deg, #0D2024 0%, #00307D 35%, #00D4FF 100%);
+
+  --heading-text: 40px;
+  --sub-heading-text: 28px;
+  --content-text: 16px;
+  --content-text2: 14px;
+
+}
+
+@media (max-width: 600px) {
+  :root {
+    --heading-text: 32px;
+    --sub-heading-text: 22px;
+    --content-text: 17px;
+    --content-text2: 14px;
+  }
+}
+
+/* Global typography for SPA pages using style2 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat' !important;
+  font-weight: 600 !important;
+}
+
+
+
+body,
+p,
+ul,
+li,
+span {
+  font-family: 'Inter' !important;
+  font-weight: 400;
+  font-size: var(--content-text);
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: var(--heading-text);
+  line-height: 1.1;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

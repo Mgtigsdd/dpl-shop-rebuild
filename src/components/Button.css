@@ -1,0 +1,46 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button-primary {
+  background-color: #007bff;
+  color: white;
+}
+.button-primary:hover {
+  background-color: #0056b3;
+}.learn-more-btn {
+    width: 100%;
+    background-color: var(--bg-warning); /* Orange background */
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: var(--primary-dark); /* Darker shade on hover */
+}
+
+/* Arrow Icon */
+.learn-more-btn::after {
+    content: "➜"; /* Unicode right arrow */
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.pink{
+  background-color: pink;
+  color: black;
+}
+
