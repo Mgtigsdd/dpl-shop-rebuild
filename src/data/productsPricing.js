@@ -8,6 +8,7 @@ import SE804 from '../images/SE804.png';
 import SE809 from '../images/SE809.png';
 import SE808 from '../images/SE808.png';
 import SE807 from '../images/SE807.png';
+import siemensLogo from '../images/siemens_logo.svg';
 
 
 const productsPricing = {
@@ -18,10 +19,10 @@ const productsPricing = {
             name: "Designcenter Solid Edge Design and Drafting",
             qty: 1,
             image: SE302,
-            priceMonthlyhome: 7735.30,
-            priceMonthly: 9669.12,
-            priceYearly: 92823.56,
-            price3Years: 278470.67,
+            priceMonthlyhome: 8546.66,
+            priceMonthly: 10683.32,
+            priceYearly: 102559.88,
+            price3Years: 307679.64,
             description: "Affordable 3D CAD with included support. Includes access to cloud-based collaboration with Teamcenter Share.Solid Edge software is a comprehensive 3D design system that uses synchronous technology and convergent modeling to accelerate design, make revisions faster, and enable better re-use. With 3D CAD, simulation, and data management, Solid Edge helps companies design better and complete their projects faster."
         },
         {
@@ -29,10 +30,10 @@ const productsPricing = {
             name: "Designcenter X Solid Edge Standard",
             qty: 1,
             image: SE800,
-            priceMonthlyhome: 17569.66,
-            priceMonthly: 21962.08,
-            priceYearly: 210835.96,
-            price3Years: 632507.87,
+            priceMonthlyhome: 18659.67,
+            priceMonthly: 23324.59,
+            priceYearly: 223916.07,
+            price3Years: 671748.20,
             description: "Solid Edge X Standard is a robust 3D CAD solution designed to empower small and medium-sized businesses (SMBs) with powerful design and collaboration capabilities.Built on Siemens' industry-leading technology, Solid Edge X Standard combines intuitive modelling tools with built-in data management, enabling teams to streamline their product development processes from concept to manufacturing."
         },
         {
@@ -40,10 +41,10 @@ const productsPricing = {
             name: "Designcenter X Solid Edge Advanced",
             qty: 1,
             image: SE801,
-            priceMonthlyhome: 21824.2,
-            priceMonthly: 27280.25,
-            priceYearly: 261890.41,
-            price3Years: 785671.22,
+            priceMonthlyhome: 23178.16,
+            priceMonthly: 28972.70,
+            priceYearly: 278137.89,
+            price3Years: 834413.68,
             description: "Solid Edge X Advanced is an all-encompassing CAD software designed to facilitate product development with precision and efficiency.Combining powerful design tools with intuitive user interfaces, it ensures that engineers and designers can effortlessly bring their concepts to life. Solid Edge X Advanced is renowned for its ability to streamline workflows, improve productivity, and enhance collaboration across teams, making it a preferred choice for professionals in various industries."
         },
         {
@@ -51,10 +52,10 @@ const productsPricing = {
             name: "Designcenter X Solid Edge Premium",
             qty: 1,
             image: SE802,
-            priceMonthlyhome: 31278.73,
-            priceMonthly: 39098.41,
-            priceYearly: 375344.73,
-            price3Years: 1126034.20,
+            priceMonthlyhome: 33219.24,
+            priceMonthly: 41524.05,
+            priceYearly: 398630.84,
+            price3Years: 1195892.53,
             description: "Solid Edge X Premium takes product development to the next level with advanced tools and capabilities designed for comprehensive and sophisticated CAD projects.Solid Edge X Premium builds upon the features of Solid Edge X Advanced, adding powerful simulation, advanced assembly management, and enhanced collaboration tools to support complex engineering tasks. This robust software is ideal for professionals seeking to optimize their design processes and achieve superior outcomes."
         },
         {
@@ -62,10 +63,10 @@ const productsPricing = {
             name: "Designcenter Solid Edge X Value Based Licensing 50 pk",
             qty: 1,
             image: SE806,
+            priceMonthlyhome: 75308.09,
             priceMonthly: 0,
-            priceMonthlyhome: 74581.41,
-            priceYearly: 894976.98,
-            price3Years: 2684930.94,
+            priceYearly: 903697.13,
+            price3Years: 2711091.39,
             description: "Solid Edge X Value Based Licensing (VBL) allows a customer to run a number of Solid Edge X add-on applications.This product contains 50 Solid Edge X Design token features. Each add-on will check out a defined number of tokens when used. Additional add-ons can be checked out if the number of tokens that they use is available in the pool. The tokens are not consumptive and are returned to the pool after using an add-on.Note: Solid Edge X Value Based Licensing is supported with Solid Edge 2025 (V2410) and or higher."
         },
         {
@@ -73,10 +74,10 @@ const productsPricing = {
             name: "Designcenter Solid Edge X Value Based Licensing 25 pk",
             qty: 1,
             image: SE805,
-            priceMonthlyhome: 37290.71,
+            priceMonthlyhome: 37654.05,
             priceMonthly: 0,
-            priceYearly: 447488.49,
-            price3Years: 1342465.47,
+            priceYearly: 451848.56,
+            price3Years: 1355545.69,
             description: "Solid Edge X Value Based Licensing (VBL) allows a customer to run a number of Solid Edge X add-on applications.This product contains 25 Solid Edge X Design token features. Each add-on will check out a defined number of tokens when used. Additional add-ons can be checked out if the number of tokens that they use is available in the pool. The tokens are not consumptive and are returned to the pool after using an add-on.Note: Solid Edge X Value Based Licensing is supported with Solid Edge 2025 (V2410) and or higher"
         },
         {
@@ -84,10 +85,10 @@ const productsPricing = {
             name: "Designcenter Solid Edge X Value Based Licensing 10 pk",
             qty: 1,
             image: SE804,
-            priceMonthlyhome: 14916.28,
+            priceMonthlyhome: 15061.62,
             priceMonthly: 0,
-            priceYearly: 178995.40,
-            price3Years: 536986.19,
+            priceYearly: 180739.43,
+            price3Years: 542218.28,
             description: "Solid Edge X Value Based Licensing 10 offers affordable, flexible access for teams of up to 10 users, lowering barriers to entry for cloud-based engineering design."
         },
         {
@@ -95,10 +96,10 @@ const productsPricing = {
             name: "Designcenter Solid Edge X Advanced Simulation Add-on",
             qty: 1,
             image: SE809,
-            priceMonthlyhome: 22374.42,
+            priceMonthlyhome: 22592.43,
             priceMonthly: 0,
-            priceYearly: 268493.09,
-            price3Years: 805479.28,
+            priceYearly: 271109.14,
+            price3Years: 813327.42,
             description: "The Solid Edge X Advanced Simulation Add-on provides users with Solid Edge embedded advanced simulation functionalities designed specifically to be used by design engineers for the structural simulation of parts and assemblies.The sophisticated tools for the simulation modeling and result evaluation help users to prepare the model and define the conditions efficiently. In addition, the advantages of Synchronous technology can be used for model preparation and modification."
         },
         {
@@ -106,10 +107,10 @@ const productsPricing = {
             name: "Designcenter Solid Edge X Routing Piping and Tubing",
             qty: 1,
             image: SE808,
-            priceMonthlyhome: 7043.8,
+            priceMonthlyhome: 7112.43,
             priceMonthly: 0,
-            priceYearly: 84525.60,
-            price3Years: 253576.81,
+            priceYearly: 85349.17,
+            price3Years: 256047.52,
             description: "Solid Edge X Routing Piping and Tubing (XpresRoute) is an integrated add-on package that rapidly routes and models pipes and rigid or flexible tubing.This module helps you quickly define paths between assembly components, define component properties, and automatically create a 3D solid model of the pipe or tube. For piping systems, 3D pipes, fittings and components are automatically positioned and correctly oriented upon population. All routed systems are dynamically associative so that they automatically adjust when changes are made in related parts. "
         },
         {
@@ -117,11 +118,55 @@ const productsPricing = {
             name: "Designcenter Solid Edge X Piping Library",
             qty: 1,
             image: SE807,
-            priceMonthlyhome: 3729.07,
+            priceMonthlyhome: 3765.41,
             priceMonthly: 0,
-            priceYearly: 44748.85,
-            price3Years: 134246.55,
+            priceYearly: 45184.86,
+            price3Years: 135554.57,
             description: "The Solid Edge X Piping Library includes piping components such as elbows, tees, reducers and so on.The library is fully compatible with Solid Edges built-in parts library capability, and is for use with the pre-requisite Solid Edge X Routing Piping and Tubing (part number SE808). When used with 'Routing Piping and Tubing', the route is automatically populated with the appropriate pipe-fittings to join the various pipe segments. Standards supported are: ANSI, DIN, JIS, GB, GOST, CSN. "
+        },
+        {
+            sku: "NXX90100",
+            name: "Designcenter X Essentials",
+            qty: 1,
+            image: siemensLogo,
+            priceMonthlyhome: 17185.00,
+            priceMonthly: 0,
+            priceYearly: 206220.01,
+            price3Years: 618660.04,
+            description: "Designcenter X Essentials is the entry-level NX subscription, providing core CAD, simulation, and manufacturing capabilities for individual designers and small teams looking to get started with industry-leading Siemens NX technology."
+        },
+        {
+            sku: "NXX91100",
+            name: "Designcenter X Standard",
+            qty: 1,
+            image: siemensLogo,
+            priceMonthlyhome: 58029.69,
+            priceMonthly: 0,
+            priceYearly: 696356.30,
+            price3Years: 2089068.89,
+            description: "Designcenter X Standard delivers full-featured NX capabilities covering advanced CAD, integrated simulation, and manufacturing for engineering teams requiring a comprehensive product development platform."
+        },
+        {
+            sku: "NXX92100",
+            name: "Designcenter X Advanced",
+            qty: 1,
+            image: siemensLogo,
+            priceMonthlyhome: 75389.50,
+            priceMonthly: 0,
+            priceYearly: 904673.99,
+            price3Years: 2714021.96,
+            description: "Designcenter X Advanced provides comprehensive NX capabilities with advanced simulation, high-end CAD, and manufacturing automation — suited for teams working on complex, multi-discipline product development."
+        },
+        {
+            sku: "NXX93100",
+            name: "Designcenter X Premium",
+            qty: 1,
+            image: siemensLogo,
+            priceMonthlyhome: 96220.58,
+            priceMonthly: 0,
+            priceYearly: 1154646.99,
+            price3Years: 3463940.96,
+            description: "Designcenter X Premium is the complete NX suite — advanced CAD, generative design, high-fidelity simulation, and full manufacturing capability across all disciplines for the most demanding engineering programmes."
         },
     ],
     /*es_ES: [
