@@ -64,6 +64,15 @@ export const isValidLocale = (locale) => {
     );
 };
 
+// Format a number as currency per locale (e.g. en_IN → 1,02,559.88)
+export const formatPrice = (amount, locale = DEFAULT_LOCALE) => {
+    const bcp47 = locale.replace('_', '-'); // en_IN → en-IN
+    return new Intl.NumberFormat(bcp47, {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+    }).format(amount);
+};
+
 // Extract country code from locale
 export const getCountryFromLocale = (locale) => {
     const localeToCountry = {

@@ -4,6 +4,7 @@ import CountryCode from './CountryCode';
 import Button from './Button';
 import productsPricing from '../data/productsPricing'; // Import the products data
 import './CartPlugin.css';
+import { formatPrice } from '../utils/localeUtils';
 
 import cartImage from '../images/shopping-cart.svg';
 
@@ -217,7 +218,7 @@ const CartPlugin = ({ country: propCountry, locale: propLocale, spi: propSpi }) 
                     </div>
                     <div className="form-group">
                         <label>Price:</label>
-                        <p>{getPriceForTerm(product, globalTerm || subscriptionTerm)}</p>
+                        <p>{formatPrice(getPriceForTerm(product, globalTerm || subscriptionTerm), locale)}</p>
                     </div>
                     <div className="form-group">
                         <label>Subscription Term:</label>

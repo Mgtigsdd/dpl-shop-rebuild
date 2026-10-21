@@ -12,7 +12,8 @@ import {
     normalizeLocale,
     findCurrencySymbol,
     getStoreTemplateAttributes,
-    getEffectiveLocale
+    getEffectiveLocale,
+    formatPrice
 } from '../utils/localeUtils';
 
 const LandingPage = ({ country, locale: propLocale, spi: propSpi }) => {
@@ -94,7 +95,7 @@ const LandingPage = ({ country, locale: propLocale, spi: propSpi }) => {
 
                         <p className="price">
                             <strong>
-                                {currencySymbol} {product.priceMonthlyhome} / month
+                                {currencySymbol} {formatPrice(product.priceMonthlyhome, locale)} / month
                             </strong>
                         </p>
                         <Button label="View Detail" onClick={() => handleViewDetails(product.sku)} />
